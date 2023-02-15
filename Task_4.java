@@ -12,9 +12,7 @@ public class Task_4 {
 
         for (int ax = 0; ax < 10; ax++) {
             for (int ay = 0; ay <= 90; ay = ay + 10) {
-                if (((a + ax) + (ay + b)) == sum) {
-                    x = a + ax;
-                    y = ay + b;
+                if (((x = a + ax) + (y = ay + b)) == sum) {
                     System.out.format("%d + %d = %d\n", x, y, sum);
                 }
 
